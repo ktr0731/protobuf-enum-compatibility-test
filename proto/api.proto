@@ -2,9 +2,9 @@ syntax = "proto3";
 package api;
 
 enum ErrorCode {
-  UNKNOWN = 0;
-  ERROR1  = 1;
-  ERROR2  = 2;
+  UNKNOWN         = 0;
+  UPDATED_ERROR1  = 1;
+  ERROR2          = 2;
 }
 
 message Message {
